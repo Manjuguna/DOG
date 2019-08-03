@@ -4,7 +4,7 @@ purt=list(map(int,input().split()))
 qurt=[]
 aat=0
 for i in range(Art1):
-    xt=purt[i]/Cct[i]
+    xt=purt[i]/Cat[i]
     qurt.append(xt)
 while Bat>=0 and len(qurt)>0:
     mindex=qurt.index(max(qurt))
